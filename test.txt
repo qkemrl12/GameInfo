@@ -1,10 +1,12 @@
-���
+양식
 
-1. ����ī���û (�⺻ ���ø�)
-2. ����ī���û (�⺻ ���ø�)
-3. ä��������
-4. ����Ȯ�μ�
-5. ä��ǰ�ǺμӼ���Ȯ�μ�
-6. �ű�ä��ǰ�Ǽ�
+1. 법인카드신청 (기본 템플릿)
+2. 공용카드신청 (기본 템플릿)
+3. 채용절차서
+4. 퇴직확인서
+5. 채용품의부속서류확인서
+6. 신규채용품의서
+
+- 김용환 수정 가능 테스트 -
 
 SELECT top 1 COMP_CODE, UN_EMST_PASS, EMST_ALIS, * FROM OPENQUERY(SSERP, 'SELECT *  FROM GTS.V_SY_EMST WHERE EMST_NUMB = ''151011''  order by Sync_Code DESC  ')
